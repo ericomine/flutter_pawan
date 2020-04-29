@@ -1,0 +1,30 @@
+[
+  {
+    "name" : "Talia",
+    "age" : 23,
+    "height" : 172,
+    "gender" : "female",
+    "hair_color" : "black"
+  },
+  {
+    "name" : "Arnold",
+    "age" : 18,
+    "height" : 179,
+    "gender" : "male",
+    "hair_color" : "black"
+  },
+  {
+    "name" : "Althea",
+    "age" : 32,
+    "height" : 165,
+    "gender" : "female",
+    "hair_color" : "black"
+  },
+  {
+    "name" : "Viva",
+    "age" : 50,
+    "height" : 180,
+    "gender" : "female",
+    "hair_color" : "red"
+  }
+]
