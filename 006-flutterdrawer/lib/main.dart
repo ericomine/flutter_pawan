@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
       ),
       onGenerateRoute: Router.generateRoute,
-      initialRoute: "/",
+      initialRoute: '/',
     );
   }
 }
@@ -58,11 +58,12 @@ class _HomePageState extends State<HomePage> {
           ListTile(
             title: Text("Page One"),
             trailing: Icon(Icons.arrow_upward),
-            onTap: () => Navigator.of(context).pushNamed(),
+            onTap: () => Navigator.of(context).pushNamed("/pageOne"),
           ),
           ListTile(
             title: Text("Page Two"),
             trailing: Icon(Icons.arrow_downward),
+            onTap: () => Navigator.of(context).pushNamed("/pageTwo"),
           ),
           Divider(),
           ListTile(
@@ -90,8 +91,8 @@ class Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
+    return Scaffold(
+      body: Center(
         child: Text(title),
       ),
     );
