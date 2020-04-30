@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttersqflite/data/database_helper.dart';
 import 'package:fluttersqflite/models/user.dart';
 import 'package:fluttersqflite/pages/login/login_presenter.dart';
+import 'package:fluttersqflite/router.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -43,9 +44,18 @@ class _LoginPageState extends State<LoginPage> implements LoginPageContract {
                 padding: const EdgeInsets.all(10.0),
                 child: TextFormField(
                   onSaved: (val) => _username = val,
-                  decoration: InputDecoration(labelText: "Password"),
+                  decoration: InputDecoration(labelText: "Username"),
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: TextFormField(
+                  onSaved: (val) => _password = val,
+                  decoration: InputDecoration(labelText: "Password"),
+                  obscureText: true,
+                ),
+              ),
+              loginBtn,
             ],
           ),
         )
@@ -101,5 +111,7 @@ class _LoginPageState extends State<LoginPage> implements LoginPageContract {
     });
     var db = DatabaseHelper();
     await db.saveUser(user);
+
+    Navigator.of(context).pushNamed(Router.homeRoute);
   }
 }
