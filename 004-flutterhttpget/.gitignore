@@ -1,4 +1,5 @@
 # Miscellaneous
+.request.http
 *.class
 *.log
 *.pyc
