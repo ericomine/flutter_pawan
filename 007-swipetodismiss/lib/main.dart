@@ -7,6 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.blue),
       onGenerateRoute: Router.generateRoute,
       initialRoute: '/',
     );
@@ -36,7 +37,9 @@ class _HomePageState extends State<HomePage> {
       itemCount: items.length,
       itemBuilder: (context, index) { 
         return Dismissible(
-          child: Text(items[index]),
+          child: ListTile(
+            title: Text(items[index]),
+          ),
           key: Key(items[index]),
           onDismissed: (direction) {
             items.removeAt(index);
@@ -46,6 +49,9 @@ class _HomePageState extends State<HomePage> {
               ),
             );
           },
+          background: Container(
+            color: Colors.red,
+          ),
         );
       },
     );
