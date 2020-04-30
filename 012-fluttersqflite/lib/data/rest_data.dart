@@ -7,7 +7,6 @@ class RestData {
   static const LOGIN_URL = BASE_URL + "/";
 
   Future<User> login(String username, String password) {
-    return null;
+    return null
   }
-
 }
