@@ -1,12 +1,15 @@
 Flutter examples from Pawan Kumar tutorials available [here](https://www.youtube.com/watch?v=Nl2kmAbC0bg&list=PLR2qQy0Zxs_WAho9MWS1e36xF9PKLdM5w).
 
+[My personal notes](notes.md) for each project.
+
+
 001. Build a Calculator App
 002. Build Material Chat App 
-✔ 003. **Build Local JSON App (Must)**
-✔ 004. **Build An App To Fetch Data Online Using HTTP GET (Must)**
-✔ 005. **Build Cryptocurrency App From Scratch (Must)**
-✔ 006. **Build Beautiful Material Navigation Drawer App With Routing (Must)**
-✔ 007. **Swipe to dismiss/delete ListView Tutorial (Must)**
+003. ✔ **Build Local JSON App (Must)**
+004. ✔ **Build An App To Fetch Data Online Using HTTP GET (Must)**
+005. ✔ **Build Cryptocurrency App From Scratch (Must)**
+006. ✔ **Build Beautiful Material Navigation Drawer App With Routing (Must)**
+007. ✔ **Swipe to dismiss/delete ListView Tutorial (Must)**
 008. Material Design Widgets | Tabs | BottomNavigationBar | Stepper | Snackbar etc.
 009. BottomSheet Tutorial | Persistent & Modal Sheets | Material Design
 010. Build Age Calculator App with Animation
