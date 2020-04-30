@@ -14,7 +14,7 @@ Flutter examples from Pawan Kumar tutorials available [here](https://www.youtube
 009. BottomSheet Tutorial | Persistent & Modal Sheets | Material Design
 010. Build Age Calculator App with Animation
 011. Flutter Create Beautiful Animated Login Page From Scratch | Beginners
-012. SQFLITE (SQLITE) + MVP Architecture + Login App Tutorial
+012. ✔ SQFLITE (SQLITE) + MVP Architecture + Login App Tutorial
 013. **Building a WhatsApp Clone from scratch | UI | Material Design (Must 6)**
 014. **Building a Tic Tac Toe Game From Scratch | Crash Course (Must 7)**
 015. **Flutter App LifeCycle and Handling Orientation (Must 8)**
