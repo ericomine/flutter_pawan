@@ -1,3 +1,4 @@
+import 'package:fluttersqflite/models/user.dart';
 import 'package:fluttersqflite/utils/network_util.dart';
 
 class RestData {
@@ -7,6 +8,6 @@ class RestData {
   static const LOGIN_URL = BASE_URL + "/";
 
   Future<User> login(String username, String password) {
-    return null
+    return null;
   }
 }

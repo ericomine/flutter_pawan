@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersqflite/main.dart';
+import 'package:fluttersqflite/pages/home_page.dart';
+import 'package:fluttersqflite/pages/login/login_page.dart';
 
 class Router {
   static const initialRoute = "/";
@@ -8,7 +9,7 @@ class Router {
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch(settings.name) {
-      case initRoute:
+      case initialRoute:
         return MaterialPageRoute(builder: (_) => HomePage());
       case homeRoute:
         return MaterialPageRoute(builder: (_) => HomePage());

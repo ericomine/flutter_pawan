@@ -1,4 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:fluttersqflite/models/user.dart';
+import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:io' as io;
@@ -23,7 +25,7 @@ class DatabaseHelper {
   initDb() async {
     io.Directory documentDirectory = await getApplicationDocumentsDirectory();
     String path = join(documentDirectory.path, "main.db");
-    var myDb = await openDatabase(path, version: 1, onCreate: _onCreateDb);
+    var myDb = await openDatabase(path, version: 1, onCreate: _onCreate);
     return myDb;
   }
 
