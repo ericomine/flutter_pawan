@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterdrawer/router.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +10,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
-      home: HomePage(),
+      onGenerateRoute: Router.generateRoute,
+      initialRoute: "/",
     );
   }
 }
@@ -56,6 +58,7 @@ class _HomePageState extends State<HomePage> {
           ListTile(
             title: Text("Page One"),
             trailing: Icon(Icons.arrow_upward),
+            onTap: () => Navigator.of(context).pushNamed(),
           ),
           ListTile(
             title: Text("Page Two"),
@@ -76,6 +79,20 @@ class _HomePageState extends State<HomePage> {
     return Container(
       child: Center(
         child: Text("Home Page"),
+      ),
+    );
+  }
+}
+
+class Page extends StatelessWidget {
+  final String title;
+  Page(this.title);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Center(
+        child: Text(title),
       ),
     );
   }
