@@ -17,8 +17,8 @@ Flutter examples from Pawan Kumar tutorials available [here](https://www.youtube
 012. ✔ SQFLITE (SQLITE) + MVP Architecture + Login App Tutorial
 013. **Building a WhatsApp Clone from scratch | UI | Material Design (Must 6)**
 014. **Building a Tic Tac Toe Game From Scratch | Crash Course (Must 7)**
-015. **Flutter App LifeCycle and Handling Orientation (Must 8)**
-016. **Validate Forms | Create Full Fledged Login Form (Must 9)**
+015. ✔ **Flutter App LifeCycle and Handling Orientation (Must 8)**
+016. ✔ **Validate Forms | Create Full Fledged Login Form (Must 9)**
 017. Dynamic Theming | Change Theme At Runtime
 018. **Routes in Flutter | Push | PushNamed | GenerateRoute | Unknown Route (Must 10)**
 019. Build a Beautiful Pokemon App | Animation | Widgets | JSON API
@@ -72,30 +72,30 @@ Flutter examples from Pawan Kumar tutorials available [here](https://www.youtube
 067. **Flutter Advanced: Build Beautiful Material Search App or Integrate it with Any App (Must 31)**
 068. **Inherited Widget & Scoped Model Explained | Part - 1 (Must 32)**
 069. **The BloC Pattern on Whiteboard (Must 33)**
-070. BloC Pattern Explained | Part - 2
+070. **BloC Pattern Explained | Part - 2 (Must 34)**
 071. Login Page Bloc Pattern Demo
 072. Face ID & Touch ID/Fingerprint Local Auth | AndroidX | Full HD
 073. Securing your Flutter Apps Part - 1 | Prevent Screenshot etc
 074. Make New Gmail Like FloatingActionButton
-075. **Flutter StackOverflow App Tutorial | Flutter Bloc | Redux (Must 34)**
-076. **Background Fetch | Run code in the background Android & iOS (Must 35)**
+075. **Flutter StackOverflow App Tutorial | Flutter Bloc | Redux (Must 35)**
+076. **Background Fetch | Run code in the background Android & iOS (Must 36)**
 077. PDF Viewer Tutorial Android & IOS | From URL & Asset
-078. **Click | Pick | Crop | Compress an Image | AndroidX (Must 36)**
+078. **Click | Pick | Crop | Compress an Image | AndroidX (Must 37)**
 079. Lazy Loading ListViews | Load More Data On Scroll
 080. Styling Google Maps For Multiple Themes | Android & iOS | Official Plugin
-081. **Find Widget's Size & Position Using Render Object (Must 37)**
+081. **Find Widget's Size & Position Using Render Object (Must 38)**
 082. Flutter ARCore Tutorial | Sceneform | Exploring New Possibilities
 083. Flutter ARKit Tutorial | iOS
-084. **Android App Bundle Step By Step Guide (Must 38)**
+084. **Android App Bundle Step By Step Guide (Must 39)**
 085. Flutter + TensorFlow Lite | Object Detection | YoloV2 | SSD Tutorial
-086. **Flutter For Web, Desktop Released | Getting Started Cocktail App (Must 39)**
-087. **Flutter Windows Desktop App | Early Preview (Must 40)**
-088. **Flutter Web: Making a Responsive Portfolio App | Part 1 (Must 41)**
+086. **Flutter For Web, Desktop Released | Getting Started Cocktail App (Must 40)**
+087. **Flutter Windows Desktop App | Early Preview (Must 41)**
+088. **Flutter Web: Making a Responsive Portfolio App | Part 1 (Must 42)**
 089. Flutter Web: Deploying Portfolio App To Github.IO | Peanut Tutorial | Part 2 
-090. **Awesome HTTP Inspector Tool | Flutter Library of the Week | EP-01 (Must 42)**
-091. **Awesome Animated Loaders | Flutter Library of the Week | EP-02 (Must 43)**
-092. **Awesome Onboarding Experience | Flutter Library of the Week | EP-03 (Must 44)**
-093. **Awesome Overlays | Flutter Library of the Week | EP-04 (Must 45)**
+090. **Awesome HTTP Inspector Tool | Flutter Library of the Week | EP-01 (Must 43)**
+091. **Awesome Animated Loaders | Flutter Library of the Week | EP-02 (Must 44)**
+092. **Awesome Onboarding Experience | Flutter Library of the Week | EP-03 (Must 45)**
+093. **Awesome Overlays | Flutter Library of the Week | EP-04 (Must 46)**
 094. Flutter Zoom In Zoom Out And Rotate
 095. Storing Keys in .env file | BuildConfig | Flutter Library of the Week | EP-06
 096. Flutter PWA Tutorial - 1/2
